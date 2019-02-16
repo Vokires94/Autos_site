@@ -1,32 +1,147 @@
-.App {
+.table_car {
+  width: 300px; /* Ширина таблицы */
+  border-collapse: collapse; /* Убираем двойные линии между ячейками */
+  border: 2px solid white; /* Прячем рамку вокруг таблицы */
+  background: rgba(255, 255, 255, 0.9);
+
+
+}
+.table_car td {
+  padding: 3px; /* Поля вокруг содержимого таблицы */
+  border: 1px solid maroon; /* Параметры рамки */
+  text-align: center; /* Выравнивание по левому краю */
+}
+.table_car_image{
+  background-color: white;
+}
+.hello{
+  color:red;
+}
+.color-hello{
+  background-color:pink;
+}
+.hi{
+  color:blue;
+}
+.color-hi{
+background-color: mediumvioletred;
+}
+
+.menu__block{
+  background-color: aquamarine;
+  border: 1px solid black;
+  Flex-basis:100%;
   text-align: center;
-}
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
 }
+.autoclass{
+  width: 50%;
+  margin:auto;
+}
+.head{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
+#video-bg {
+  position: relative;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0);
+  background-size: cover;
+height:100vh;
+  width:100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#video-bg > video {
+
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
+
+.pic-auto {
+  position: relative;
+  background: transparent;
+height:100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+}
+body{
+  background:fixed;
+}
+
+.copyright {
+
+  text-align: center;
+  bottom: 0;
+  background-color: transparent;
+  background-position: top center;
+  color: #be7b42;
+  padding-bottom: 10px;
+}
+.links{
+
+  height:400px;
+
+}
+.footer{
+
+  width:100%;
+  background-image: url(./pictures/footer.jpg);
+}
+
+.li-footer{
+  color: #bea784;
+  float: left;
+  margin-right: 55px;
+  display: block;
+  font-family: 'Roboto Slab', serif;
+}
+.li-footer a{
+  color: #bea784;
+  text-decoration: none;
+  padding: 10px 0;
+  font-size: 18px;
+}
+.ul-footer{
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.states{
+   padding-top: 20px;
+}
+.social-networks{
+  display: block;
+  clear: both;
+  float: right;
+  margin-top: 20px;
+
+}
+
+.social-links {
+  margin-top: 0;
+  padding-right: 50px;
+  padding-left:0px;
+  margin-bottom: 10px;
+
+}
+.social-links li {
+  float: left;
+  margin-right: 10px;
+  display: block;
+
+}
+.social-links li a{
+  text-decoration: none;
+}
+.youtube-small-video{
+
+}
+
+
+
+
+
